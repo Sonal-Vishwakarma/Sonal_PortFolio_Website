@@ -10,6 +10,17 @@
     <meta property="og:title" content="Sonal Vishwakarma | Portfolio" />
     <meta property="og:description" content="Software Engineer & Front-End Developer" />
     <meta property="og:type" content="website" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("portfolio-theme");
+          var theme = stored === "dark" || stored === "light" ? stored : "light";
+          if (theme === "light") document.documentElement.classList.add("light");
+        } catch (e) {
+          document.documentElement.classList.add("light");
+        }
+      })();
+    </script>
   </head>
 
   <body>

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Heart } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -47,12 +47,12 @@ const Footer = () => {
 
           {/* Copyright */}
           <motion.p
-            className="text-sm text-muted-foreground flex items-center gap-1"
+            className="text-sm text-muted-foreground"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            © {currentYear} Made with <Heart className="w-4 h-4 text-destructive" /> by Sonal Vishwakarma
+            © {currentYear} Sonal Vishwakarma. All rights reserved.
           </motion.p>
         </div>
       </div>

@@ -5,12 +5,10 @@ type Theme = "dark" | "light";
 const STORAGE_KEY = "portfolio-theme";
 
 const getInitialTheme = (): Theme => {
-  if (typeof window === "undefined") return "dark";
+  if (typeof window === "undefined") return "light";
   const stored = window.localStorage.getItem(STORAGE_KEY) as Theme | null;
   if (stored === "dark" || stored === "light") return stored;
-  return window.matchMedia("(prefers-color-scheme: light)").matches
-    ? "light"
-    : "dark";
+  return "light";
 };
 
 export const useTheme = () => {
