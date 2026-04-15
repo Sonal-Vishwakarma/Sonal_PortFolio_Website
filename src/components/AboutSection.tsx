@@ -100,6 +100,7 @@ const AboutSection = () => {
               experience building scalable, high-performance web applications using React.js,
               Next.js, JavaScript, and TypeScript. Proficient in modern UI frameworks like
               Tailwind CSS, MUI, and Bootstrap for creating responsive and accessible interfaces.
+              And I have a strong foundation in data structures and algorithms, enabling me to solve complex problems efficiently. I thrive in collaborative environments, leveraging version control systems like Git and platforms like GitHub to contribute to open-source projects and work seamlessly with teams. With a commitment to continuous learning, I stay updated with the latest industry trends and best practices to deliver innovative solutions that exceed expectations.
             </motion.p>
 
             {/* Highlight cards */}
