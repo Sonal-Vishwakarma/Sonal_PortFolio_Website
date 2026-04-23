@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 type Theme = "dark" | "light";
 
-const STORAGE_KEY = "portfolio-theme";
+const STORAGE_KEY = "portfolio-themes";
 
 const getInitialTheme = (): Theme => {
   if (typeof window === "undefined") return "light";
